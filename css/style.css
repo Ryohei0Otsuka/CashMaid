@@ -1,0 +1,145 @@
+body {
+    max-width: 480px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #d0f0f7;
+    font-family: 'Arial', sans-serif;
+    color: #00695c;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #009688;
+    font-weight: 900;
+    border-bottom: 3px solid #004d40;
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+h2 {
+    color: #00796b;
+    margin-top: 36px;
+    margin-bottom: 18px;
+    font-weight: 700;
+}
+
+form {
+    background: #ffffffee;
+    padding: 24px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 150, 136, 0.15);
+}
+
+form label {
+    display: block;
+    margin-bottom: 14px;
+    font-size: 1.15em;
+    cursor: pointer;
+    user-select: none;
+}
+
+form input[type="number"] {
+    width: 100%;
+    padding: 10px 14px;
+    margin-top: 6px;
+    font-size: 1.1em;
+    border: 2px solid #26a69a;
+    border-radius: 12px;
+    box-sizing: border-box;
+    transition: border-color 0.4s ease, box-shadow 0.3s ease;
+}
+
+form input[type="number"]:focus {
+    border-color: #009688;
+    box-shadow: 0 0 8px #26a69a88;
+    outline: none;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 28px;
+}
+
+button {
+    background: linear-gradient(135deg, #ff99aa, #ff6f91);
+    border: none;
+    border-radius: 35px;
+    color: white;
+    padding: 14px 36px;
+    font-size: 1.3em;
+    font-weight: 900;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(255, 111, 145, 0.5);
+    transition: background 0.35s ease, transform 0.25s ease, box-shadow 0.3s ease;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    flex: 1;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ff6f91, #ff4081);
+    transform: scale(1.08);
+    box-shadow: 0 10px 20px rgba(255, 64, 129, 0.75);
+}
+
+button:active {
+    transform: scale(0.96);
+    box-shadow: 0 5px 10px rgba(255, 64, 129, 0.6);
+}
+
+.reset-btn {
+    background: linear-gradient(135deg, #b2dfdb, #80cbc4);
+    color: #004d40;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    padding: 14px 20px;
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 6px 10px rgba(0, 150, 136, 0.3);
+    flex: 0.8;
+}
+
+.reset-btn:hover {
+    background: linear-gradient(135deg, #80cbc4, #4db6ac);
+    transform: scale(1.03);
+    box-shadow: 0 8px 14px rgba(0, 121, 107, 0.4);
+}
+
+ul {
+    padding-left: 24px;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    font-size: 1.25em;
+    color: #004d40;
+}
+
+.back-rate {
+    font-size: 1.7em;
+    color: #d81b60;
+    font-weight: 900;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.back-amount {
+    font-size: 1.7em;
+    color: #388e3c;
+    font-weight: 900;
+    margin-top: 14px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.result-section {
+    background: #e0f7fa;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 18px rgba(0, 150, 136, 0.15);
+}
